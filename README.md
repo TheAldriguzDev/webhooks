@@ -12,7 +12,7 @@ The aim of this repo is help you to avoid or handle the discord webhooks ratelim
 You can copy and paste the discord.js and logger.js code in your project and import there where you need and use them.
 To import the packages you have to do like so:
 
-```
+```javascript
 // For the logger:
 const Logger = require("../log/logger")
 let log = new Logger("Discord") // "Discord" is the location
@@ -28,7 +28,7 @@ To run this discord webhooks package you have the possibility to choose two mode
 - without queue
 
 ### With queue:
-```
+```javascript
 // ... Webhook info code
 
 // Start checking the queue
@@ -44,7 +44,7 @@ for (let index = 0; index < 100; index++) {
 ```
 
 ### Without queue:
-```
+```javascript
 // ... Webhook info code
 
 for (let index = 0; index < 100; index++) {
